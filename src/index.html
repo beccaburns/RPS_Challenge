@@ -8,44 +8,33 @@
     <title>Rock Paper Scissors Challenge</title>
 </head>
 <body>
-    <section>
-        <div class="intro">
-            <h1>Rock Paper Scissors Game</h1>
-            <h3>Ready, Set...</h3>
-            <br>
-            <center><button>Play!</button></center>
-        </div>
-        <br>
-        <div class="score-board">
-            <div id="player-label" class="badge">user</div>
-            <div id="computer-label" class="badge">user</div>
-            <span id="player-score">0</span>:<span id="computer-score">0</span>
-        </div>
-        <div class="game">
-            <h2 class="winner">What will you play?</h2>
-            <div class="choices">
-                <div class="choice" id="r">
-                    <img class="computer-choice" src="./img/rock.png" alt="rock">
-                </div>
-                <div class="choice" id="p">
-                    <img class="player-choice" src="./img/paper.png" alt="paper">
-                </div>
-                <div class="choice" id="s">
-                    <img class="player-choice" src="./img/scissors.png" alt="paper">
-                </div>
-            </div>
-        </div>
-        <center>
-            <div class="options">
-            <button class="rock">rock</button>
-            <button class="scissors">scissors</button>
-            <button class="paper">paper</button>
-        </div>
-        </center>
-        <div class="result">
+    <div class="intro">
+        <h1>Rock Paper Scissors Game</h1>
+        <h3>Ready, Set, Go!</h3>
+    </div>
+    <br>
+    <div class="score-board">
+        <div id="player-label" class="badge">user</div>
+        <div id="computer-label" class="badge">computer</div>
+        <span id="player-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
             <p>Rock crushes scissors. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img class="computer-choice" src="./img/rock.png" alt="rock">
         </div>
-    </section>
+        <div class="choice" id="p">
+            <img class="player-choice" src="./img/paper.png" alt="paper">
+        </div>
+        <div class="choice" id="s">
+            <img class="player-choice" src="./img/scissors.png" alt="paper">
+        </div>
+    </div>
+    <p id="action-message">What will you choose?</p>
     <script src="app.js"></script>
 </body>
 </html>
