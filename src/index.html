@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
     <title>Rock Paper Scissors Challenge</title>
 </head>
 <body>
+    <section>
+        <div class="intro">
+            <h1>Rock Paper Scissors Game</h1>
+            <h3>Ready, Set...</h3>
+            <br>
+            <center><button>Play!</button></center>
+        </div>
+        <br>
+        <div class="score-board">
+            <div id="player-label" class="badge">user</div>
+            <div id="computer-label" class="badge">user</div>
+            <span id="player-score">0</span>:<span id="computer-score">0</span>
+        </div>
+        <div class="game">
+            <h2 class="winner">What will you play?</h2>
+            <div class="hands">
+                <img class="player-choice" src="./img/paper.png" alt="paper">
+                <img class="computer-choice" src="./img/rock.png" alt="rock">
+            </div>
+        </div>
+        <center>
+            <div class="options">
+            <button class="rock">rock</button>
+            <button class="scissors">scissors</button>
+            <button class="paper">paper</button>
+        </div>
+        </center>
+        <div class="result">
+            <p>Rock crushes scissors. You win!</p>
+        </div>
+    </section>
     <script src="app.js"></script>
 </body>
 </html>
