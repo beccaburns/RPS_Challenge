@@ -15,7 +15,21 @@ function getComputerChoice() {
 }
 
 function game(playerChoice) {
-  console.log(' ' + playerChoice)
+  const computerChoice = getComputerChoice()
+  switch (playerChoice + computerChoice) {
+    case "rs":
+    case "pr":
+    case "sp":
+      break;
+    case "rp":
+    case "ps":
+    case "sr":
+      break;
+    case "rr":
+    case "pp":
+    case "ss":
+      break;
+  }
 }
 
 function main() {
